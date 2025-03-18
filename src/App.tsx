@@ -12,9 +12,10 @@ import LoadingPage from './pages/loading'
 
 // Lazily loaded pages
 const Dashboard = lazy(() => import('./pages/dashboard'))
-const Meditations = lazy(() => import('./pages/meditations'))
+const TherapySession = lazy(() => import('./pages/therapy/session'))
+const TherapySessions = lazy(() => import('./pages/therapy/sessions'))
 const Journal = lazy(() => import('./pages/journal'))
-const MoodTracker = lazy(() => import('./pages/mood-tracker'))
+const EmotionalWellness = lazy(() => import('./pages/emotional-wellness'))
 const Resources = lazy(() => import('./pages/resources'))
 const SignIn = lazy(() => import('./pages/auth/sign-in'))
 const SignUp = lazy(() => import('./pages/auth/sign-up'))
@@ -45,9 +46,14 @@ function App() {
             <Dashboard />
           </Suspense>
         } />
-        <Route path="/meditations" element={
+        <Route path="/therapy" element={
           <Suspense fallback={<LoadingPage />}>
-            <Meditations />
+            <TherapySessions />
+          </Suspense>
+        } />
+        <Route path="/therapy/session/:sessionId" element={
+          <Suspense fallback={<LoadingPage />}>
+            <TherapySession />
           </Suspense>
         } />
         <Route path="/journal" element={
@@ -55,9 +61,9 @@ function App() {
             <Journal />
           </Suspense>
         } />
-        <Route path="/mood-tracker" element={
+        <Route path="/emotional-wellness" element={
           <Suspense fallback={<LoadingPage />}>
-            <MoodTracker />
+            <EmotionalWellness />
           </Suspense>
         } />
         <Route path="/resources" element={
