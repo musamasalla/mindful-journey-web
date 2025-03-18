@@ -1,17 +1,16 @@
-# MindfulJourney Web
+# MindfulJourney Web - AI Therapy Companion
 
-A modern mental health and wellness web application featuring AI-guided meditations, mood tracking, and personalized support.
+A modern AI-powered therapy platform providing personalized therapeutic support, emotional wellness tracking, and mental health resources.
 
 ## Features
 
-- **Daily Wellness Tips**: Receive personalized mental wellness tips and affirmations
-- **Mood Tracking**: Track your daily mood, emotions, and triggers with visual insights
-- **Guided Meditations**: Access AI-generated guided meditations for anxiety, stress, and depression
-- **Journaling**: Express thoughts with AI-assisted journal prompts and reflection tools
-- **Community Support**: Connect anonymously with others on their mental wellness journey
-- **CBT Exercises**: Interactive cognitive behavioral therapy exercises to challenge negative thoughts
-- **Resource Hub**: Access professional mental health resources and crisis support information
-- **Personalized Recommendations**: Receive content tailored to your specific mental health needs
+- **AI Therapy Sessions**: Engage in personalized therapy sessions with an AI therapist trained on evidence-based therapeutic approaches
+- **Emotional Wellness Tracking**: Monitor your emotional states, triggers, and progress over time
+- **Guided Therapeutic Exercises**: Access CBT, DBT, and mindfulness exercises tailored to your specific needs
+- **Therapy Journal**: Document thoughts and feelings with AI-guided therapeutic prompts
+- **Session History**: Review past therapy conversations and track your progress
+- **Crisis Support**: Access emergency mental health resources when needed
+- **Personalized Treatment Plans**: Receive customized therapeutic recommendations based on your needs
 
 ## Tech Stack
 
@@ -20,10 +19,10 @@ A modern mental health and wellness web application featuring AI-guided meditati
 - Tailwind CSS
 - shadcn/ui
 - Supabase (Authentication & Database)
-- OpenAI (GPT-4 & DALL-E)
+- OpenAI (GPT-4)
 - Framer Motion
 - React Query
-- Recharts (for mood tracking visualizations)
+- Recharts (for emotional wellness visualizations)
 
 ## Getting Started
 
@@ -61,6 +60,16 @@ npm run dev
 - `/src/context` - React context providers
 - `/supabase` - Supabase configurations and functions
 
+## Therapeutic Approaches
+
+MindfulJourney implements various evidence-based therapeutic approaches:
+
+1. **Cognitive Behavioral Therapy (CBT)**: Identifying and challenging negative thought patterns
+2. **Dialectical Behavior Therapy (DBT)**: Mindfulness, distress tolerance, emotion regulation
+3. **Mindfulness-Based Cognitive Therapy**: Present-moment awareness techniques
+4. **Solution-Focused Brief Therapy**: Goal-oriented, solution-focused approaches
+5. **Motivational Interviewing**: Techniques to increase motivation for positive change
+
 ## Mental Health Design Principles
 
 MindfulJourney adheres to these key design principles for mental health applications:
@@ -71,11 +80,17 @@ MindfulJourney adheres to these key design principles for mental health applicat
 4. **Accessibility**: WCAG 2.1 AA compliance for all users
 5. **Privacy by Design**: Clear data policies and control over personal information
 6. **Crisis Support**: Easily accessible emergency resources
-7. **Positive Reinforcement**: Celebration of small achievements in mental wellness
+7. **Therapeutic Alliance**: Design that fosters trust and connection with the AI therapist
+
+## Important Disclaimers
+
+- MindfulJourney is not a replacement for professional mental health treatment
+- In case of emergency, please contact local emergency services or crisis hotlines
+- All AI therapy interactions are based on established therapeutic protocols but should be used as a supplement to professional care when needed
 
 ## Companion Mobile App
 
-MindfulJourney has a companion iOS application available at [MindfulJourney Mobile](https://github.com/musamasalla/mindful-journey-mobile) for on-the-go support and continuous care.
+MindfulJourney has a companion iOS application available at [MindfulJourney Mobile](https://github.com/musamasalla/mindful-journey-mobile) for on-the-go therapeutic support.
 
 ## License
 
